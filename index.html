@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Secret Formulas</title>
+</head>
+<body>
+
+<!-- The Alerter ******************************   -->
+    
+    <form id = "downLoad">
+        <h1>The Alerter</h1>
+        <div>
+            <label>Please enter your first name: </label>
+            <input type="text" id = "yourName" autocomplete="off" placeholder="Name">
+        </div>
+        <input type="submit">
+    </form>
+
+
+<!-- Form Sandwich Order ******************************   -->
+    
+    <form id = "sandwichForm">
+        <h1>Sandwich Builder</h1>
+        <p>Please select from the following ingredients for your sandwich.</p>
+
+        <h3>Bread Type</h3>
+        <div id = "breads">
+            <label>White Bread</label>
+            <input type="radio" id = "White Bread" class = "ingredients" name = "bread" checked> 
+
+            <label>Wheat Bread</label>
+            <input type="radio" id = "Wheat Bread" class = "ingredients" name = "bread"> 
+ 
+            <label>Italian Bread</label>
+            <input type="radio" id = "Italian Bread" class = "ingredients" name = "bread"> 
+    
+            <label>French Bread</label>
+            <input type="radio" id = "French Bread" class = "ingredients" name = "bread"> 
+        </div>
+        <h3>Meats</h3>
+        <div id = "meats">
+            <label>Ham</label>
+            <input type="checkbox" id = "Ham" name = "meat" class = "ingredients"> 
+      
+            <label>Turkey</label>
+            <input type="checkbox" id = "Turkey" name = "meat" class = "ingredients"> 
+   
+            <label>Roast Beef</label>
+            <input type="checkbox" id = "Roast Beef" name = "meat" class = "ingredients"> 
+        </div>
+        <h3>Cheeses</h3>
+        <div id = "cheeses">
+            <label>Provolone</label>
+            <input type="checkbox" id = "Provolone" name = "cheese" class = "ingredients"> 
+        
+            <label>Muenster</label>
+            <input type="checkbox" id = "Muenster" name = "cheese" class = "ingredients"> 
+      
+            <label>Sharp Cheddar</label>
+            <input type="checkbox" id = "Cheddar" name = "cheese" class = "ingredients"> 
+        </div>
+        <h3>Vegetables</h3>
+        <div id = "veggies">
+            <label>Lettuce</label>
+            <input type="checkbox" id = "Lettuce" name = "veg" class = "ingredients"> 
+        
+            <label>Tomatoes</label>
+            <input type="checkbox" id = "Tomato" name = "veg" class = "ingredients"> 
+        
+            <label>Onions</label>
+            <input type="checkbox" id = "Onions" name = "veg" class = "ingredients"> 
+        </div>
+        <input type="submit">
+    </form>
+
+<!-- Form for Barber ******************************   -->
+   
+    <form id = "barberForm">
+        <h1>Barber's Scheduler</h1>
+        <p>Please select from the following to schedule your appointment.</p>
+    
+        <div id = "dateSelector">
+            <label>Appointment Date</label>
+            <input type="date" id = "date" class = "barber"> 
+        </div> 
+        <div id = "byName">
+            <label>Do you have a preferred barber?</label>
+            <label>If so, please enter their name.  If not leave blank.</label>
+            <input type="text" id = "name" class = "barber" placeholder="Barber Name" autocomplete="off"> 
+        </div> 
+        <div>
+            <label>Long Hair</label>
+            <input type="radio" id = "longHair" class = "long"> 
+
+            <label>Short Hair</label>
+            <input type="radio" id = "shortHair" class = "short"> 
+
+        </div>
+        <input type="submit">
+    </form>
+
+
+    <!-- Form for New User ******************************   -->
+ 
+    <form id="newUserForm">
+        <h1>Create New User</h1>
+        <p>Please enter the following information to create your account.</p>
+
+        <div>
+            <label>Enter your preferred user name: </label>
+            <input type="text" id = "userName" class = "userName" placeholder="User Name" autocomplete="off"> 
+        </div> 
+        <div>
+            <label>Enter your email address: </label>
+            <input type="email" id = "email" class = "email" placeholder="email" autocomplete="off"> 
+        </div> 
+        <div>
+            <label>Enter a strong password: </label>
+            <input type="password" id = "password1" class = "password1" placeholder="Pa$$word" autocomplete="off"> 
+        </div> 
+        <div>
+            <label>Re-enter your password: </label>
+            <input type="password" id = "password2" class = "password2" placeholder="Pa$$word" autocomplete="off"> 
+        </div> 
+        <input type="submit">
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+body {
+    background-color: mediumslateblue;
+}
+
+
+form{
+    max-width: 600px;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px;
+    background-color: bisque;
+    color: darkslategray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text] {
+    width: 40%;
+    padding: 10px;
+    margin: 4px 0;
+    border-radius: 25px;
+    border: 2px solid rgb(18, 24, 186);
+    box-sizing: border-box;
+  }
+  input[type=text]:hover {
+    width: 40%;
+    padding: 10px;
+    margin: 4px 0;
+    border-radius: 25px;
+    border: 2px solid red;
+    box-sizing: border-box;
+  }
+
+
+  input[type=email] {
+    width: 60%;
+    padding: 10px;
+    margin: 4px 0;
+    border-radius: 25px;
+    border: 2px solid rgb(18, 24, 186);
+    box-sizing: border-box;
+  }
+  input[type=email]:hover {
+    width: 60%;
+    padding: 10px;
+    margin: 4px 0;
+    border-radius: 25px;
+    border: 2px solid red;
+    box-sizing: border-box;
+  }
+
+
+
+  input[type=password] {
+    width: 40%;
+    padding: 10px;
+    margin: 4px 0;
+    border-radius: 25px;
+    border: 2px solid rgb(18, 24, 186);
+    box-sizing: border-box;
+  }
+  input[type=password]:hover {
+    width: 40%;
+    padding: 10px;
+    margin: 4px 0;
+    border-radius: 25px;
+    border: 2px solid red;
+    box-sizing: border-box;
+  }
+
+
+  input[type=date] {
+    width: 40%;
+    padding: 10px;
+    margin: 4px 0;
+    border-radius: 25px;
+    border: 2px solid rgb(18, 24, 186);
+    box-sizing: border-box;
+  }
+  input[type=date]:hover {
+    width: 40%;
+    padding: 10px;
+    margin: 4px 0;
+    border-radius: 25px;
+    border: 2px solid red;
+    box-sizing: border-box;
+  }
+
+
+
+
+  input[type=submit] {
+    padding: 10px;
+    margin: 4px 0;
+    background-color: gray;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-weight: bold;
+  }
+  input[type=submit]:hover {
+    padding: 10px;
+    margin: 4px 0;
+    background-color: rgb(53, 52, 52);
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-weight: bold;
+  }
+ 
