@@ -86,11 +86,13 @@ newUserForm.addEventListener("submit", function(event){
     newAccount.userID = userName.value;
     newAccount.email = userEmail.value;
     newAccount.password = passWord1.value;
-    accounts.push(newAccount)
+    console.log(newAccount);
+    accounts.push(newAccount);
 
     userName.value = "";
     userEmail.value = "";
     passWord1.value = "";
     passWord2.value = "";
 }
+console.log(accounts);
 })
