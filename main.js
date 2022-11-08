@@ -28,6 +28,10 @@ sandwichForm.addEventListener("submit", function(event){
         }
     }let str = sammie.join(", ");
     alert (`Your sandwich will come with ${str}!  That sounds awesome!!`)
+
+    for(let i = 0; i<ingredients.length; i++){
+        ingredients[i].checked = false;
+        }
 })
 
 
@@ -82,9 +86,11 @@ newUserForm.addEventListener("submit", function(event){
     newAccount.userID = userName.value;
     newAccount.email = userEmail.value;
     newAccount.password = passWord1.value;
+    accounts.push(newAccount)
 
-    console.log(newAccount);
-
-
+    userName.value = "";
+    userEmail.value = "";
+    passWord1.value = "";
+    passWord2.value = "";
 }
 })
